@@ -1,4 +1,19 @@
 .projects {
     height: 100vh;
     background-color: violet;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectWrapper{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    width: 100%;
 }

@@ -1,5 +1,24 @@
 .skills {
-    height: 100vh;
+    min-height: 100vh;
     background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+
 }
+.container {
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skilsTitle {
+    display: flex;
+    justify-content: center;
+}
+.skilItem {
+
+}
+
 

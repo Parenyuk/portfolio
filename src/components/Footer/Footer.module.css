@@ -1,4 +1,36 @@
 .footer {
     height: 40vh;
     background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border: 1px solid;
+
+}
+.socialIcon {
+    width: 60px;
+    height: 60px;
+    background-color: #ededed;
+}
+@media screen and (max-width: 626px) {
+    .socialBlock {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 340px) {
+    .socialIcon {
+        width: 50px;
+        height: 50px;
+    }
 }
