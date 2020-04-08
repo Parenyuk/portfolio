@@ -15,9 +15,10 @@ const Footer = () => {
                     <div className={s.socialIcon}></div>
                     <div className={s.socialIcon}></div>
                 </div>
-                <div><h2>
-                    2020 Все права защищены
-                </h2>
+                <div className={s.blockRights}>
+                    <h3>
+                        2020 Все права защищены
+                    </h3>
                 </div>
             </div>
         </div>

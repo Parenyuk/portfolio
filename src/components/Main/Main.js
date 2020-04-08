@@ -8,8 +8,8 @@ const Main = () => {
             <div className={s.container} >
             <div className={s.greeting} >
                 <span>Hello!</span>
-                <span>My name is Victor Parenyuk</span>
-                <span>I am frontend-developer</span>
+                <span>I am Victor Parenyuk</span>
+                <h1>A Front-end Developer</h1>
             </div>
             <div className={s.photo}>
                 <img src="" alt=""/>

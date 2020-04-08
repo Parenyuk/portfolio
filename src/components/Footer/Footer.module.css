@@ -1,15 +1,18 @@
 .footer {
-    height: 40vh;
+    height: 30vh;
     background-color: lightcoral;
     display: flex;
     justify-content: center;
+
 }
 .container {
     border: 1px solid;
     width: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .socialBlock {
     display: flex;
@@ -23,6 +26,16 @@
     height: 60px;
     background-color: #ededed;
 }
+.blockRights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+
+
+}
+
 @media screen and (max-width: 626px) {
     .socialBlock {
         width: 100%;
@@ -32,5 +45,20 @@
     .socialIcon {
         width: 50px;
         height: 50px;
+    }
+}
+@media screen and (max-width: 1900px) {
+    .blockRights {
+        margin: -4vh;
+    }
+}
+@media screen and (max-width: 660px) {
+    .blockRights {
+      font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .blockRights {
+        font-size: 10px;
     }
 }

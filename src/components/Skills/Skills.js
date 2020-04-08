@@ -1,23 +1,23 @@
 import React from "react";
 import s from './Skills.module.css';
-import Skil from "./Skil/Skil";
+import Skill from "./Skill/Skill";
 
 
 const Skills = () => {
-    return(
+    return (
         <div className={s.skills}>
             <div className={s.container}>
-                <div className={s.skilsTitle}>
-                    <h2>  Мои скиллы</h2>
-                </div >
-            <div className={s.skilItem}>
-                <Skil/>
-                <Skil/>
-                <Skil/>
-            </div>
+                <div className={s.skillsTitle}>
+                    <h2> Мои скиллы</h2>
+                </div>
+                <div className={s.skillsWrapper}>
+                        <Skill title='HTML&CSS'/>
+                        <Skill title='JS'/>
+                        <Skill title='React'/>
+                </div>
             </div>
         </div>
 
-            )
-            }
+    )
+}
 export default Skills;

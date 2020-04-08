@@ -1,6 +1,6 @@
 .main {
     height: 100vh;
-    background-color: lightpink;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
 
@@ -16,6 +16,22 @@
 .greeting {
 display: flex;
 flex-direction: column;
+
+}
+.greeting span:nth-child(1) {
+    font-size: 16px;
+
+
+}
+.greeting span:nth-child(2) {
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+h1 {
 
 }
 .photo {

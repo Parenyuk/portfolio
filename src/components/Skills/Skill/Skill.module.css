@@ -1,0 +1,27 @@
+.skill {
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    width: 20vw;
+    text-align: center;
+}
+.skillIcon {
+    height: 80px;
+    width: 80px;
+    background-color: #ededed;
+}
+.skillsDescription {
+    text-align: center;
+}
+@media screen and (max-width: 1132px) {
+    .skill {
+        width: 70vw;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .skill {
+        width: 80vw;
+    }
+}

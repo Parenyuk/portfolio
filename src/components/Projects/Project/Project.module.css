@@ -6,3 +6,14 @@
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
 }
+.projectImg {
+
+}
+.btnShow {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

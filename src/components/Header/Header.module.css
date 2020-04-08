@@ -1,9 +1,10 @@
 .header {
     height: 70px;
-    background-color: blue;
+    background-color: #fff;
     display: flex;
     justify-content: center;
-
+    position: fixed;
+    width: 100%;
 }
 .container {
     border: 1px solid;
@@ -11,9 +12,20 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 .nav {
     width: 400px;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
+@media screen and (max-width: 1200px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+
