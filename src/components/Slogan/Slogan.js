@@ -4,7 +4,11 @@ import s from './Slogan.module.css';
 
 const Slogan = () => {
     return(
-        <div className={s.slogan}>Slogan</div>
+        <div className={s.slogan}>
+            <div className={s.container}>
+                Slogan
+            </div>
+           </div>
 
     )
 }

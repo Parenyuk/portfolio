@@ -8,11 +8,11 @@ const Main = () => {
             <div className={s.container} >
             <div className={s.greeting} >
                 <span>Hello!</span>
-                <span>I am Victor Parenyuk</span>
+                <span>I am  <span>Victor Parenyuk</span> </span>
                 <h1>A Front-end Developer</h1>
             </div>
             <div className={s.photo}>
-                <img src="" alt=""/>
+                <div className={s.image}></div>
             </div>
             </div>
         </div>
