@@ -34,14 +34,27 @@
 .messageArea {
     min-height: 160px;
 }
-
+@media screen and (max-width: 1920px) {
+    .formWrapper {
+        margin-bottom: 20vh;
+    }
+}
 @media screen and (max-width: 626px) {
     .formWrapper {
         width: 100%;
     }
 }
-@media screen and (max-width: 1920px) {
-    .formWrapper {
-       margin-bottom: 20vh;
+@media screen and (max-width: 800px) {
+    .btnSubmit {
+        width: 20vw;
+        height: 5vh;
+
+    }
+}
+@media screen and (max-width: 630px) {
+    .btnSubmit {
+        width: 20vw;
+        height: 11vh;
+
     }
 }
