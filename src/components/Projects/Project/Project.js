@@ -4,7 +4,7 @@ import s from './Project.module.css';
 
 const Project = (props) => {
     return(
-       <div className={s.project}>
+       <div className={s.project}  >
            <div className={s.projectImg}>
                <a className={s.btnShow} href=''>Show</a>
            </div>

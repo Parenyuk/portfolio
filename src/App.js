@@ -14,9 +14,9 @@ function App() {
         <div className="container">
          <Header/>
          <Main/>
-         <Skills/>
+         <Skills title={'Мои скиллы'}/>
          <Projects/>
-         <Slogan/>
+         <Slogan title={'Slogan'}/>
          <Contact/>
          <Footer/>
         </div>
