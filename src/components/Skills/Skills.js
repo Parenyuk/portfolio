@@ -16,11 +16,11 @@ const Skills = (props) => {
 
 
                 <div className={s.skillsWrapper}>
-                        <Skill title='HTML' icon={faHtml5} size={'6x'}    />
-                        <Skill title='CSS' icon={faCss3} size={'6x'}    />
-                        <Skill title='JS' icon={faJs} size={'6x'} />
-                        <Skill title='React'  icon={faReact} size={'5x'} />
-                        <Skill title='Redux'  icon={faAngular} size={'5x'} />
+                        <Skill title='HTML' icon={faHtml5} size={'4x'}    />
+                        <Skill title='CSS' icon={faCss3} size={'4x'}    />
+                        <Skill title='JS' icon={faJs} size={'4x'} />
+                        <Skill title='React'  icon={faReact} size={'4x'} />
+                        <Skill title='Angular'  icon={faAngular} size={'4x'} />
                 </div>
             </div>
         </div>

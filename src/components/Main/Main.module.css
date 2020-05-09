@@ -43,7 +43,7 @@
     position: absolute;
     width: 100%;
     height: 2vh;
-    background-color: #ea548d;
+    background-color: #40FF00;
     bottom: -2px;
     z-index: -1;
 }
@@ -69,7 +69,7 @@
     position: absolute;
     height: 430px;
     width: 300px;
-    border: 5px solid #ea548d;
+    border: 5px solid #40FF00;
     left: 125px;
     top: -20px;
     z-index: -1;
