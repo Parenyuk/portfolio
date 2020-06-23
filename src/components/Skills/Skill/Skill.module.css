@@ -6,6 +6,7 @@
     /*border: 1px solid black;*/
     width: 20vw;
     text-align: center;
+    margin-bottom: 100px;
 
 }
 .skillIcon {
@@ -19,8 +20,21 @@
     justify-content: center;
     align-items: center;
 }
-.skillsDescription {
+.skillTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.skillDescription {
     text-align: center;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 @media screen and (max-width: 1132px) {
     .skill {

@@ -16,7 +16,7 @@ function App() {
          <Main/>
          <Skills title={'Мои скиллы'}/>
          <Projects/>
-         <Slogan title={'Slogan'}/>
+         <Slogan title={'I am available for hire'}/>
          <Contact/>
          <Footer/>
         </div>

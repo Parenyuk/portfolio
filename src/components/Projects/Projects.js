@@ -2,29 +2,25 @@ import React from "react";
 import s from './Projects.module.css';
 import Project from "./Project/Project";
 
-
 const Projects = () => {
     return (
         <div className={s.projects}>
             <div className={s.container}>
-                <span className={s.blockTitle}>My projects</span>
+                <span className={s.title}>My projects</span>
+                <div className={s.line}></div>
                 <div className={s.projectWrapper}>
-                    <Project title='ToDo List'
+                    <Project title={'ToDo List'}
                              description="There are many variations of passages of Lorem Ipsum available, but the majority have
-                         suffered alteration in some form, by injected humour, or randomised words which don'
-                         t look even slightly believable. " />
-                    <Project title=' Social network'
+                         suffered alteration in some form" />
+                    <Project title={'Social network'}
                              description=" Lorem Ipsum is simply dummy text of the printing
-                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
-                    <Project title=' Social network'
+                         and typesetting industry." />
+                    <Project title='Calculator'
                              description=" Lorem Ipsum is simply dummy text of the printing
-                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
-                    <Project title=' Social network'
+                         and typesetting industry." />
+                    <Project title='Social network'
                              description=" Lorem Ipsum is simply dummy text of the printing
-                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+                         and typesetting industry." />
                 </div>
 
 

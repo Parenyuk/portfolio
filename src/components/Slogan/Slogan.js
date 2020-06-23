@@ -6,7 +6,13 @@ const Slogan = (props) => {
     return(
         <div className={s.slogan}>
             <div className={s.container}>
-                {props.title}
+                <div className={s.title}>
+                    {props.title}
+                </div>
+
+                <div className={s.line}></div>
+                <div className={s.btnShow}><a href=''>HIRE ME</a>
+                    </div>
             </div>
            </div>
 

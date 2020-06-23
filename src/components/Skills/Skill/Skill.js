@@ -9,11 +9,11 @@ const Skill = (props) => {
             <div className={s.skillIcon}>
                 <FontAwesome icon={props.icon} size={props.size} />
             </div>
-            <div className={s.skillsTitle}>
-                <h1>{props.title}</h1>
+            <div className={s.skillTitle}>
+                <h3>{props.title}</h3>
             </div>
-            <div className={s.skillsDescription}>
-                <h2>Подробное описание навыка</h2>
+            <div className={s.skillDescription}>
+                <p>Подробное описание навыка</p>
             </div>
         </div>
     )

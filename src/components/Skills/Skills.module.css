@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding-top: 50px;
 }
 .skillsTitle h2{
     font-family: 'Montserrat', sans-serif;
@@ -28,13 +28,12 @@
     font-size: 36px;
    
 }
-.line {
-    height: 1px;
-    width: 75px;
-    margin: 30px 0;
-    background-color: #e9548d;
-    margin-top: -10px;
 
+.line {
+    background-color: #40FF00;
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
 }
 .skillsWrapper {
     display: flex;
