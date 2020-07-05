@@ -3,6 +3,7 @@
     background-color: #252527;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     /*background: rgba(255,255,255,0.1);*/
 }
 .container {

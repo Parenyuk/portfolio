@@ -1,10 +1,12 @@
 import React from "react";
 import s from './Contact.module.css';
+import {Fade} from "react-reveal";
 
 
 const Contact = () => {
     return (
-        <div className={s.contacts}>
+        <div id={'contact'} className={s.contacts}>
+            <Fade big>
             <div className={s.container}>
                 <span className={s.blockTitle}>Contact</span>
                 <div className={s.line}></div>
@@ -15,6 +17,7 @@ const Contact = () => {
                         <button className={s.btnSubmit} type='submit'>SEND MESSAGE</button>
                 </form>
             </div>
+            </Fade>
         </div>
 
 )

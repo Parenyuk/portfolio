@@ -4,8 +4,8 @@ import s from './Project.module.css';
 
 const Project = (props) => {
     return (
-        <div className={s.project}>
-            <div className={s.projectImg} alt=''>
+        <div id={'projects'} className={s.project}>
+            <div className={s.projectImg} alt='' style={props.style} >
                 <a className={s.btnShow} href=''>Show</a>
             </div>
             <div>

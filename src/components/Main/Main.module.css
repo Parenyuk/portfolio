@@ -55,7 +55,10 @@
     padding-bottom: 10vh;
 
 }
-
+/*.photo:hover {*/
+/*    transform: scale(1.1, 1.1);*/
+/*    transition: all 2.6s ease-out;  !* не работает*!*/
+/*}*/
 .image {
     height: 400px;
     width: 300px;
@@ -63,6 +66,7 @@
     margin-left: 110px;
     margin-right: 50px;
 }
+
 
 .photo:before {
     content: '';

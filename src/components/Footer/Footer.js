@@ -6,11 +6,13 @@ import linkedInIcon from './../../assets/img/roundIcon/linkedin.svg';
 import instagramIcon from './../../assets/img/squareIcon/instagram.svg'
 import {faFacebook, faInstagram, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
 import FontAwesome from "./FontAwesome/FontAwesome";
+import {Fade} from "react-reveal";
 
 
 const Footer = () => {
     return (
         <div className={s.footer}>
+            <Fade big>
             <div className={s.container}>
                 <div className={s.name}>
                     <h2> Victor Parenyuk</h2>
@@ -48,6 +50,7 @@ const Footer = () => {
                     </h3>
                 </div>
             </div>
+            </Fade>
         </div>
 
     )
