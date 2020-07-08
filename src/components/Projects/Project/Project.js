@@ -3,8 +3,9 @@ import s from './Project.module.css';
 
 
 const Project = (props) => {
+        let cssBlurEffect = 's.blur'
     return (
-        <div id={'projects'} className={s.project}>
+        <div id={'projects'} className={s.project} onBlur={cssBlurEffect}>
             <div className={s.projectImg} alt='' style={props.style} >
                 <a className={s.btnShow} href=''>Show</a>
             </div>

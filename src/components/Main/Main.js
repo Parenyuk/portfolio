@@ -1,5 +1,6 @@
 import React from "react";
-import s from './Main.module.css'
+import s from './Main.module.css';
+import mainPhoto from './../../assets/img/mainPhoto/mainPhoto.jpg'
 
 
 const Main = () => {
@@ -12,7 +13,7 @@ const Main = () => {
                 <h1>A Front-end Developer</h1>
             </div>
             <div className={s.photo}>
-                <div className={s.image}></div>
+                <div className={s.image}><img src={mainPhoto} className={s.mainPhoto} /> </div>
             </div>
             </div>
         </div>

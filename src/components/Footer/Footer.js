@@ -2,9 +2,8 @@ import React from "react";
 import s from './Footer.module.css';
 import telegramIcon from './../../assets/img/squareIcon/telegram.svg';
 import facebookIcon from './../../assets/img/roundIcon/facebook.svg';
-import linkedInIcon from './../../assets/img/roundIcon/linkedin.svg';
+import linkedInIcon from './../../assets/img/squareIcon/linkedin.svg';
 import instagramIcon from './../../assets/img/squareIcon/instagram.svg'
-import {faFacebook, faInstagram, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
 import FontAwesome from "./FontAwesome/FontAwesome";
 import {Fade} from "react-reveal";
 
@@ -39,14 +38,14 @@ const Footer = () => {
                             <img src={instagramIcon} className={s.Icon} />
                         </a>
                     </div>
-                    <FontAwesome  icon={faTelegram} size={'3x'} />
-                    <FontAwesome  icon={faFacebook} size={'3x'} />
-                    <FontAwesome  icon={faInstagram} size={'3x'} />
-                    <FontAwesome  icon={faLinkedin} size={'3x'} />
+                    {/*<FontAwesome  icon={faTelegram} size={'3x'} />*/}
+                    {/*<FontAwesome  icon={faFacebook} size={'3x'} />*/}
+                    {/*<FontAwesome  icon={faInstagram} size={'3x'} />*/}
+                    {/*<FontAwesome  icon={faLinkedin} size={'3x'} />*/}
                 </div>
                 <div className={s.blockRights}>
                     <h3>
-                        2020 Все права защищены
+                        2020 All rights reserved
                     </h3>
                 </div>
             </div>
