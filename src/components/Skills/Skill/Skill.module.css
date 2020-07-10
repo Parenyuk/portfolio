@@ -36,6 +36,10 @@
     font-size: 14px;
     font-family: 'Josefin Sans', sans-serif;
 }
+.Icon {
+    width: 65px;
+    transform: rotate(315deg);
+}
 @media screen and (max-width: 1132px) {
     .skill {
         width: 70vw;

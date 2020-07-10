@@ -1,10 +1,10 @@
 import React from "react";
 import s from './Footer.module.css';
 import telegramIcon from './../../assets/img/squareIcon/telegram.svg';
-import facebookIcon from './../../assets/img/roundIcon/facebook.svg';
+import facebookIcon from './../../assets/img/squareIcon/facebook.svg';
 import linkedInIcon from './../../assets/img/squareIcon/linkedin.svg';
 import instagramIcon from './../../assets/img/squareIcon/instagram.svg'
-import FontAwesome from "./FontAwesome/FontAwesome";
+
 import {Fade} from "react-reveal";
 
 
@@ -20,12 +20,12 @@ const Footer = () => {
                 <div className={s.socialBlock}>
                     <div className={s.socialIcon}>
                         <a href=''>
-                            <img src={telegramIcon} className={s.Icon} />
+                            <img src={facebookIcon} className={s.Icon} />
                         </a>
                     </div>
                     <div className={s.socialIcon}>
                         <a href=''>
-                            <img src={facebookIcon} className={s.Icon} />
+                            <img src={telegramIcon} className={s.Icon} />
                         </a>
                     </div>
                     <div className={s.socialIcon}>
@@ -38,10 +38,6 @@ const Footer = () => {
                             <img src={instagramIcon} className={s.Icon} />
                         </a>
                     </div>
-                    {/*<FontAwesome  icon={faTelegram} size={'3x'} />*/}
-                    {/*<FontAwesome  icon={faFacebook} size={'3x'} />*/}
-                    {/*<FontAwesome  icon={faInstagram} size={'3x'} />*/}
-                    {/*<FontAwesome  icon={faLinkedin} size={'3x'} />*/}
                 </div>
                 <div className={s.blockRights}>
                     <h3>
