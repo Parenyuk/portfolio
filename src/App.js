@@ -38,7 +38,7 @@ function App() {
             <Particles params={particlesOptions} className='particles' />
          <Header/>
          <Main/>
-         <Skills title={'Мои скиллы'}/>
+         <Skills title={'My Skills'}/>
          <Projects/>
          <Slogan title={'I am available for hire'}/>
          <Contact/>

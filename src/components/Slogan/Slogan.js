@@ -11,7 +11,6 @@ const Slogan = (props) => {
                 <div className={s.title}>
                     {props.title}
                 </div>
-
                 <div className={s.line}></div>
                 <div className={s.btnShow}><a href=''>HIRE ME</a>
                     </div>
