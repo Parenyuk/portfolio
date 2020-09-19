@@ -5,7 +5,6 @@ import Main from "./components/Main/Main";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Slogan from "./components/Slogan/Slogan";
-
 import Footer from "./components/Footer/Footer";
 import Particles from "react-particles-js";
 import {Contact} from './components/Contact/Contact';

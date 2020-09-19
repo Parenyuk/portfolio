@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-}
+    }
 .container {
     border: 1px solid  #1f1f20;;
     width: 80%;
@@ -37,7 +37,7 @@
 }
 .messageArea {
     min-height: 160px;
-    padding: 15px;
+    padding: 5px;
 }
 .formArea, .messageArea {
     box-sizing: border-box;
@@ -81,6 +81,7 @@
     width: 180px;
     height: 50px;
     background-color: transparent;
+    z-index: 10;
 }
 .btnSubmit a {
     text-decoration: none;
