@@ -5,9 +5,11 @@ import Main from "./components/Main/Main";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Slogan from "./components/Slogan/Slogan";
-import Contact from "./components/Contact/Contact";
+
 import Footer from "./components/Footer/Footer";
 import Particles from "react-particles-js";
+import {Contact} from './components/Contact/Contact';
+
 
 
 function App() {
@@ -41,7 +43,8 @@ function App() {
          <Skills title={'My Skills'}/>
          <Projects/>
          <Slogan title={'I am available for hire'}/>
-         <Contact/>
+            <Contact />
+         {/*<ContactContainer/>*/}
          <Footer/>
         </div>
     </div>
