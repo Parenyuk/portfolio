@@ -31,6 +31,7 @@ import s from './Contact.module.css';
 import {useDispatch} from 'react-redux';
 import {sendMessageData} from '../../redux/contactReducer';
 import {ModalForm} from './ModalForm';
+import {MainModal} from './ModalForm/MainModal';
 
 
 export const Contact = (props) => {
@@ -44,18 +45,11 @@ export const Contact = (props) => {
         dispatch(sendMessageData(formData))
 
     }
-    const [isModalOpen, setModalOpen] = useState(false);
-
-    const toggleModal = () => setModalOpen(!isModalOpen);
 
 
     return (
-        <div id={'contact'} className={s.contacts} onClick={toggleModal}>
-            <div>
-                <ModalForm isOpen={isModalOpen} >
-                    <button onClick={toggleModal} >close modal</button>
-                </ModalForm>
-            </div>
+        <div id={'contact'} className={s.contacts} >
+
             <div className={s.container}>
             <span className={s.blockTitle}>Contact</span>
             <div className={s.line}></div>
@@ -87,9 +81,9 @@ export const Contact = (props) => {
                            {required: 'Please,write your text', maxLength: 200})}
                         />
                 {errors.messages && errors.message.messages}
-                <button className={s.btnSubmit} onClick={toggleModal} type="submit">Submit</button>
+                <button className={s.btnSubmit}  type="submit">Submit</button>
             </form>
-
+            <MainModal/>
             </div>
         </div>
 
