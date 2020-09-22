@@ -32,19 +32,25 @@ import {useDispatch} from 'react-redux';
 import {sendMessageData} from '../../redux/contactReducer';
 import {ModalForm} from './ModalForm';
 import {MainModal} from './ModalForm/MainModal';
+import {ToggleContent} from './ModalForm/ToggleContent';
 
 
 export const Contact = (props) => {
 
 
     const {handleSubmit, register, errors} = useForm();
+    const [isShown, setIsShown] = React.useState(false);
+    const [loader, setLoader] = React.useState(false);
     let dispatch = useDispatch();
     // const onSubmit = values => console.log(values);
-    const onSubmit = (formData) => {
-        debugger
-        dispatch(sendMessageData(formData))
+    const onSubmit = async (formData) => {
+        setLoader(true)
+       await  dispatch(sendMessageData(formData))
+        setIsShown(true)
+        setLoader(false)
 
     }
+
 
 
     return (
@@ -81,9 +87,9 @@ export const Contact = (props) => {
                            {required: 'Please,write your text', maxLength: 200})}
                         />
                 {errors.messages && errors.message.messages}
-                <button className={s.btnSubmit}  type="submit">Submit</button>
+                <button className={s.btnSubmit} disabled={loader} type="submit">Submit</button>
             </form>
-            <MainModal/>
+                {isShown &&  <MainModal setIsShown={setIsShown}  />}
             </div>
         </div>
 

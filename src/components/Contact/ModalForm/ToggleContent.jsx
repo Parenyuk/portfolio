@@ -7,8 +7,7 @@ export const ToggleContent = ({ toggle, content }) => {
 
     return (
         <>
-            {toggle(show)}
-            {isShown && content(hide)}
+            {content(hide)}
         </>
     );
 }
