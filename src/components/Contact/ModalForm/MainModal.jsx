@@ -3,16 +3,14 @@ import {ToggleContent} from './ToggleContent';
 import {Modal} from './ModalForm';
 
 
-
 export const MainModal = () => (
-    <p >
-        Click to reveal a secret:
+    <p>
         <ToggleContent
             toggle={show => <button onClick={show}>Open</button>}
             content={hide => (
                 <Modal>
                     Your Message has been sent!<br/>
-                    <button onClick={hide}  >Close</button>
+                    <button onClick={hide} >Close</button>
                 </Modal>
             )}
         />
