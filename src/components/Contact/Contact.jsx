@@ -30,9 +30,8 @@ import {useForm} from 'react-hook-form';
 import s from './Contact.module.css';
 import {useDispatch} from 'react-redux';
 import {sendMessageData} from '../../redux/contactReducer';
-import {ModalForm} from './ModalForm';
 import {MainModal} from './ModalForm/MainModal';
-import {ToggleContent} from './ModalForm/ToggleContent';
+
 
 
 export const Contact = (props) => {
