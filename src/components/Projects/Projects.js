@@ -29,20 +29,26 @@ const Projects = () => {
                                  description="There are many variations of passages of Lorem Ipsum available, but the majority have
                          suffered alteration in some form"
                                  style={toDoListBgImg}
+                                 link={'https://github.com/Parenyuk/todolist-ts'}
                         />
                         <Project title={'Social network'}
                                  description=" Lorem Ipsum is simply dummy text of the printing
                          and typesetting industry."
                                  style={socialNetworkBgImg}
+                                 link={'https://github.com/Parenyuk/network'}
                         />
-                        <Project title='Calculator'
+                        <Project title='Cards'
                                  description=" Lorem Ipsum is simply dummy text of the printing
                          and typesetting industry."
                                  style={calculatorBgImg}
+                                 link={'https://github.com/Parenyuk/cards'}
                         />
-                        {/*<Project title='Social network'*/}
-                        {/*         description=" Lorem Ipsum is simply dummy text of the printing*/}
-                        {/*     and typesetting industry." />*/}
+                        <Project title='Twitter'
+                                 description=" Lorem Ipsum is simply dummy text of the printing
+                             and typesetting industry."
+                                 link={'https://github.com/Parenyuk/twitter'}
+                        />
+
                     </div>
                 </div>
             </Fade>

@@ -1,9 +1,11 @@
 .modal {
     position: fixed;
-    top: 64px;
+    top: 150px;
     padding: 24px;
-    left: 64px;
+    left: 630px;
     background-color: greenyellow;
     border: 1px solid grey;
-    border-radius: 3px;
+    border-radius: 10px;
+    width: 250px;
+    height: 70px;
 }

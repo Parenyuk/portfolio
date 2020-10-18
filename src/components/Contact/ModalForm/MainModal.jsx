@@ -1,5 +1,4 @@
 import React from 'react';
-import {ToggleContent} from './ToggleContent';
 import {Modal} from './ModalForm';
 
 
