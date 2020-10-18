@@ -4,6 +4,7 @@ import Project from './Project/Project';
 import toDoListImg from './../../assets/img/projects/todo.png';
 import calculatorImg from './../../assets/img/projects/calculator.jpg';
 import socialNetworkImg from './../../assets/img/projects/socialNetwork.jpg';
+import twitterImage from './../../assets/img/projects/twitter.jpg'
 import {Fade} from "react-reveal";
 
 
@@ -16,6 +17,9 @@ const Projects = () => {
     }
     const socialNetworkBgImg = {
         backgroundImage: `url(${socialNetworkImg})`,
+    }
+    const twitterBgImg = {
+        backgroundImage: `url(${twitterImage})`,
     }
 
     return (
@@ -47,6 +51,7 @@ const Projects = () => {
                                  description=" Lorem Ipsum is simply dummy text of the printing
                              and typesetting industry."
                                  link={'https://github.com/Parenyuk/twitter'}
+                                 style={twitterBgImg}
                         />
 
                     </div>

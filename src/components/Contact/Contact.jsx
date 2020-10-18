@@ -44,8 +44,8 @@ export const Contact = (props) => {
     // const onSubmit = values => console.log(values);
     const onSubmit = async (formData) => {
         setLoader(true)
-        await setLoader(true)
-        dispatch(sendMessageData(formData))
+        // await setLoader(true)
+        await dispatch(sendMessageData(formData))
         setIsShown(true)
         setLoader(false)
 
