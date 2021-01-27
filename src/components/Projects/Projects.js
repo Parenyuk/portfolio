@@ -16,8 +16,8 @@ const Projects = () => {
     const calculatorBgImg = {
         backgroundImage: `url(${calculatorImg})`,
     }
-    const socialNetworkBgImg = {
-        backgroundImage: `url(${socialNetworkImg})`,
+    const gitHubBgImg = {
+        backgroundImage: `url(${gitHubImage})`,
     }
     const twitterBgImg = {
         backgroundImage: `url(${twitterImage})`,
@@ -35,11 +35,11 @@ const Projects = () => {
                                  style={toDoListBgImg}
                                  link={'https://github.com/Parenyuk/todolist-ts'}
                         />
-                        <Project title={'Github search app'}
+                        <Project title='Github search app'
                                  description="In this pet-project I realize search user by name from github API,
                                  add lodash debounce to input,
                                  use pre-processor SCSS to made mobile layout. "
-                                 style={gitHubImage}
+                                 style={gitHubBgImg}
                                  link={'https://github.com/Parenyuk/githubsearchapp'}
                         />
                         <Project title='Cards'
