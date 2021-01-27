@@ -1,6 +1,5 @@
 .project {
     display: flex;
-    /*background-color: black;*/
     width: 500px;
     flex-wrap: wrap;
     margin-bottom: 50px;

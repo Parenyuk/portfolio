@@ -4,7 +4,8 @@ import Project from './Project/Project';
 import toDoListImg from './../../assets/img/projects/todo.png';
 import calculatorImg from './../../assets/img/projects/calculator.jpg';
 import socialNetworkImg from './../../assets/img/projects/socialNetwork.jpg';
-import twitterImage from './../../assets/img/projects/twitter.jpg'
+import twitterImage from './../../assets/img/projects/twitter.jpg';
+import gitHubImage from './../../assets/img/projects/gitHub.jpg'
 import {Fade} from "react-reveal";
 
 
@@ -30,30 +31,29 @@ const Projects = () => {
                     <div className={s.line}></div>
                     <div className={s.projectWrapper}>
                         <Project title={'ToDo List'}
-                                 description="There are many variations of passages of Lorem Ipsum available, but the majority have
-                         suffered alteration in some form"
+                                 description="Todolist in React+Typescript with all CRUD-operations"
                                  style={toDoListBgImg}
                                  link={'https://github.com/Parenyuk/todolist-ts'}
                         />
-                        <Project title={'Social network'}
-                                 description=" Lorem Ipsum is simply dummy text of the printing
-                         and typesetting industry."
-                                 style={socialNetworkBgImg}
-                                 link={'https://github.com/Parenyuk/network'}
+                        <Project title={'Github search app'}
+                                 description="In this pet-project I realize search user by name from github API,
+                                 add lodash debounce to input,
+                                 use pre-processor SCSS to made mobile layout. "
+                                 style={gitHubImage}
+                                 link={'https://github.com/Parenyuk/githubsearchapp'}
                         />
                         <Project title='Cards'
-                                 description=" Lorem Ipsum is simply dummy text of the printing
-                         and typesetting industry."
+                                 description={`It's team work. We realize a project in which you can make all 
+                                 CRUD operation with Cards using React, Redux, Typescript, pre-processor SCSS`}
                                  style={calculatorBgImg}
                                  link={'https://github.com/Parenyuk/cards'}
                         />
                         <Project title='Twitter'
-                                 description=" Lorem Ipsum is simply dummy text of the printing
-                             and typesetting industry."
+                                 description="I made a Twitter Clone using React, Redux, Redux-saga, Typescript,
+                                 Material UI"
                                  link={'https://github.com/Parenyuk/twitter'}
                                  style={twitterBgImg}
                         />
-
                     </div>
                 </div>
             </Fade>

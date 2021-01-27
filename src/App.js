@@ -42,8 +42,7 @@ function App() {
          <Skills title={'My Skills'}/>
          <Projects/>
          <Slogan title={'I am available for hire'}/>
-            <Contact />
-         {/*<ContactContainer/>*/}
+         <Contact />
          <Footer/>
         </div>
     </div>
