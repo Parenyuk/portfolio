@@ -31,7 +31,7 @@ const Projects = () => {
                     <div className={s.line}></div>
                     <div className={s.projectWrapper}>
                         <Project title={'ToDo List'}
-                                 description="Todolist in React+Typescript with all CRUD-operations"
+                                 description="Todolist using React and Typescript with all CRUD-operations"
                                  style={toDoListBgImg}
                                  link={'https://github.com/Parenyuk/todolist-ts'}
                         />

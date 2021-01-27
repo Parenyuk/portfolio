@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Skills.module.css';
 import Skill from "./Skill/Skill";
-import {faAngular, faCss3, faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
+import {faCss3, faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import {Fade} from "react-reveal";
 import SkillTypescript from "./Skill/SkillTypesctipt";
 
