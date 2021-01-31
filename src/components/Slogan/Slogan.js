@@ -12,8 +12,6 @@ const Slogan = (props) => {
                     {props.title}
                 </div>
                 <div className={s.line}></div>
-                {/*<div className={s.btnShow}><a href=''>HIRE ME</a>*/}
-                {/*    </div>*/}
                 <button className={s.btnShow} type='submit'>HIRE ME</button>
             </div>
             </Fade>

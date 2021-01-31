@@ -10,8 +10,8 @@ const Project = (props) => {
                 <a className={s.btnShow} href={props.link} target="_blank" >Show</a>
             </div>
             <div>
-                <span className={s.projectTitle}>{props.title}</span>
-                <div>
+                <span className={s.projectTitle} >{props.title}</span>
+                <div className={s.projectBlock}>
                     <span className={s.projectDescription}>{props.description}</span>
                 </div>
 

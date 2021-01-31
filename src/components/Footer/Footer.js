@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
                 <div className={s.blockRights}>
                     <h3>
-                        2020 All rights reserved
+                        © 2020 All rights reserved
                     </h3>
                 </div>
             </div>
